@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre de Usuario Sugerencias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Nombre de Usuario Sugerencias</h1>
+        <input type="text" id="usernameInput" placeholder="Introduce un nombre de usuario" oninput="suggestNames()">
+        <button onclick="toggleMode()">Modo Oscuro/Claro</button>
+        <div id="suggestions"></div>
+        <div id="history">
+            <h2>Historial de Búsquedas</h2>
+            <ul id="historyList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
